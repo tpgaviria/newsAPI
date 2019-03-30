@@ -5,23 +5,29 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <title>New York Times Search</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>News Search</title>
 </head>
 
 <body id="body">
     <div class="container">
-        <h1>News Today</h1>
+        <h1><i class="far fa-newspaper"></i>
+            News Today</h1>
     </div>
     <div id="panel-header">
-        <h3><i class="fas fa-list-alt"></i>
-            Search Parameters</h3>
+        <h3><i class="far fa-list-alt"></i>
+            Search Parameterss</h3>
 
         <div id="forms">
             <form>
                 <label for="search-input">Search :</label><br>
                 <input type="text" id="search-input"><br>
                 <label for="number">Number of records to retrieve :</label><br>
-                <input type="text" id="number"><br>
+                <select class="form-control" id="number"><br>
+                    <option value="1">1</option>
+                    <option value="5" selected>5</option>
+                    <option value="10">10</option>
+                </select><br>
                 <label for="start-year">Start Year :</label><br>
                 <input type="text" id="start-year"><br>
                 <label for="end-year">End Year :</label><br>

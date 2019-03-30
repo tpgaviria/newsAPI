@@ -1,0 +1,23 @@
+#body{
+background:white;
+}
+.container{
+width: 100%;
+margin-top: 0px;
+}
+h1{
+text-align: center;
+margin:10px 100px 10px 100px;
+background:darkblue;
+color:whitesmoke;
+padding: 50px 50px 50px 50px;
+}
+#panel-header{
+padding: 50px 50px 50px 50px;
+margin:10px 100px 10px 100px;
+
+}
+#forms{
+
+}
+
